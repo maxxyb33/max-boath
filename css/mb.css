@@ -13,7 +13,7 @@ body {
 .image {
     display: block;
     width: 100%;
-    height: auto;
+    height: 100%;
 }
 
 .overlay {
@@ -25,7 +25,7 @@ body {
     width: 100%;
     height: auto;
     opacity: 0.6;
-    background-color: rgba(1, 0, 81, 0.45);
+    background-color: rgba(60, 0, 204, 0.53);
     transition: .6s ease;
 }
 
@@ -34,7 +34,7 @@ body {
 }
 
 .text {
-    color: #f3ff00;
+    color: #64f3ff;
     font-size: 20px;
     font-weight: bold;
     border-style: outset;
@@ -51,9 +51,17 @@ body {
     -ms-transform: translate(-50%, -50%);
 }
 
-.text:hover {
+a {
     color: #f3ff00;
-    font-size: 40px;
+}
+
+a:hover {
+    color: #0013c1;;
+}
+
+.text:hover {
+    color: #24d3ff;
+    font-size: 30px;
 }
 
 #myBtn {
@@ -76,3 +84,14 @@ body {
     background-color: #52469c;
 }
 
+
+
+nav{
+    letter-spacing: -.6px;
+    font-size: x-large;
+    background: linear-gradient(to bottom right, #c205cc, rgba(0, 19, 193, 0.89));
+}
+
+#footnote {
+    color: #040073; !important;
+}
