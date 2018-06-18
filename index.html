@@ -19,6 +19,14 @@
 
 </head>
 
+
+
+
+
+
+
+
+
 <body>
 <!--NAV BAR -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
@@ -31,8 +39,18 @@
         filter:invert(100%);" width="80%" class="d-inline-block align-top" >
     </a>
 
+
+
+    <!--collapse button for phones-->
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+
+
+
     <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse">
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <!--Create class ml-auto for the navbar items you want on the right.-->
         <ul class="navbar-nav ml-auto" >
 
@@ -64,10 +82,10 @@
                 </div>
             </li>
 
-            <!--an about page which open the url in a new page-->
-            <li>
-                <a class= "nav-link" href="http://geoviz.ceoas.oregonstate.edu/neocarto/" target="_blank">NeoCarto</a>
-            </li>
+            <!--&lt;!&ndash;an about page which open the url in a new page&ndash;&gt;-->
+            <!--<li>-->
+                <!--<a class= "nav-link" href="http://geoviz.ceoas.oregonstate.edu/neocarto/" target="_blank">NeoCarto</a>-->
+            <!--</li>-->
         </ul>
         <nav class="navbar navbar-dark bg-dark">
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent" aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -81,53 +99,124 @@
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <!-- Page Content -->
 <div class="container">
+    <div class="row text-center">
+        <div class="col-12">
+            <br>
+            <!--<h6></h6>-->
+        </div>
+    </div>
     <!-- Page Header -->
     <!--justify-content-center to center columns (col-*) inside row-->
     <div class="row justify-content-center align-items-center">
-        <a href="#top" target="_self" ><img src="img/maxvector.png" ></a>
+        <a href="#" target="_self" ><img src="img/maxvector.png" width="136"></a>
     </div>
 
-    <div class="row text-center">
+    <div class="row text-center" style="color: #000f9c">
         <div class="col-12">
             <h1>Max Boath</h1>
             <hr>
-            <h3>Websites</h3>
+            <h4>Websites</h4>
         </div>
     </div>
+
+
+
+
 
     <hr>
     <!--mx-auto for centering inside flex elements-->
     <div class="row mx-auto text-center">
         <div class="col-md-4 col-lg-4 map">
-            <img src="img/resume.PNG" class="image">
+            <img src="img/cereal.png" class="image">
             <div class="overlay">
-                <div class="text"><h3><a href="https://maxxyb33.github.io/resume" target="_blank"><i class="fa fa-github-square"></i> Resume of Max Boath</a></h3>
-                    <small>Experience and Education</small>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-lg-4 map">
-            <img src="img/usairports.PNG" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="https://maxxyb33.github.io/USAirports/" target="_blank"><i class="fa fa-github-square"></i> US Airports</a></h3>
-                    <small>Cloropleth Map</small>
+                <div class="text"><h3><a href="https://maxxyb33.github.io/food-drought-nexus/" target="_blank"><i class="fa fa-globe"></i> Cereal Migrations</a></h3>
+                    <small>Track Global Grains</small>
                 </div>
             </div>
         </div>
         <div class="col-md-4 col-lg-4 map">
             <img src="img/galap.png" class="image">
             <div class="overlay">
-                <div class="text"><h3><a href="https://maxxyb33.github.io/galapagos/" target="_blank"><i class="fa fa-github-square"></i> Boath Family Trip</a></h3>
+                <div class="text"><h3><a href="https://maxxyb33.github.io/galapagos/" target="_blank"><i class="fa fa-globe"></i> Boath Family Trip</a></h3>
                     <small>Galápagos Islands & Colombia</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/plank.png" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="https://maxxyb33.github.io/3d-max/" target="_blank"><i class="fa fa-ellipsis-h"></i> Max Plank</a></h3>
+                    <small>Interactive 3D Model</small>
                 </div>
             </div>
         </div>
     </div>
 
-    <div class="row mx-auto text-center">
 
+
+    <div class="row mx-auto text-center">
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/usairports.PNG" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="https://maxxyb33.github.io/USAirports/" target="_blank"><i class="fa fa-globe"></i> US Airports</a></h3>
+                    <small>Cloropleth Map</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/tornadoes.png" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="https://maxxyb33.github.io/tornadoes/" target="_blank"><i class="fa fa-globe"></i> Tornadoes in the US </a></h3>
+                    <small>d3 Data Geovisualization</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/rong.png" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="https://maxxyb33.github.io/3d-rong/" target="_blank"><i class="fa fa-ellipsis-h"></i> Head in the Clouds</a></h3>
+                    <small>Interactive 3D Model</small>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <div class="row mx-auto text-center">
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/sharks.PNG" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="https://maxboath4.wixsite.com/sharksinyahouse" target="_blank"><i class="fa fa-binoculars"></i> Sharks In Ya House</a></h3>
+                    <small>Coastal Remote Sensing Project</small>
+                </div>
+            </div>
+        </div>
         <div class="col-md-4 col-lg-4 map">
             <img src="img/bio.PNG" class="image">
             <div class="overlay">
@@ -144,6 +233,27 @@
                 </div>
             </div>
         </div>
+    </div>
+
+
+
+    <div class="row mx-auto text-center">
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/sb.PNG" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="http://maxboath.wix.com/theslicedbreadtheband" target="_blank"><i class="fa fa-music"></i> Sliced Bread The Band</a></h3>
+                    <small>Rock Band Landing Page</small>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4 col-lg-4 map">
+            <img src="img/df.PNG" class="image">
+            <div class="overlay">
+                <div class="text"><h3><a href="https://dankflavours.bandcamp.com/" target="_blank"><i class="fa fa-bandcamp"></i> Dank Flavours Band Website</a></h3>
+                    <small>Free Downloadable Music</small>
+                </div>
+            </div>
+        </div>
         <div class="col-md-4 col-lg-4 map">
             <img src="img/fb.PNG" class="image">
             <div class="overlay">
@@ -153,46 +263,23 @@
             </div>
         </div>
     </div>
-    <div class="row mx-auto text-center">
-        <div class="col-md-4 col-lg-4 map">
-            <img src="img/sb.PNG" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="http://maxboath.wix.com/theslicedbreadtheband target="_blank""><i class="fa fa-music"></i></i> Sliced Bread The Band</a></h3>
-                    <small>Rock Band Landing Page</small>
-                </div>
-            </div>
-        </div>
-        <div class="col-md-4 col-lg-4 map">
-            <img src="img/sharks.PNG" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="https://maxboath4.wixsite.com/sharksinyahouse target="_blank""><i class="fa fa-binoculars"></i></i> Sharks In Ya House</a></h3>
-                    <small>Coastal Remote Sensing Project</small>
-                </div>
-            </div>
-        </div>
 
-        <div class="col-md-4 col-lg-4 map">
-            <img src="img/df.PNG" class="image">
-            <div class="overlay">
-                <div class="text"><h3><a href="https://dankflavours.bandcamp.com/ target="_blank""><i class="fa fa-bandcamp"></i> Dank Flavours Band Website</a></h3>
-                    <small>Free Downloadable Music</small>
-                </div>
-            </div>
-        </div>
 
-    </div>
+
+
+
 
     <hr>
 
-    <footer class="container">
+    <footer class="container" style="color: #000f9c">
 
         <div class="row justify-content-center align-items-center">
             <p> Max Boath, 2018 </p>
         </div>
 
-        <div class="row justify-content-center align-items-center">
-            <a href="mailto:max.boath@gmail.com" target="_self"><i class="fa fa-mobile"></i> CONTACT       .</a>
-            <a href="#top" target="_self"><i class="fa fa-home"></i> TOP     </a>
+        <div id="footnote" class="row justify-content-center align-items-center">
+            <a href="mailto:max.boath@gmail.com" target="_self"><i class="fa fa-mobile"></i>  CONTACT       .</a>
+            <a href="#" target="_self"><i class="fa fa-home"></i> TOP     </a>
         </div>
     </footer>
 
@@ -200,21 +287,26 @@
 
 <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+
+
+
+
+
+
+
 <script>
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
-document.getElementById("myBtn").style.display = "block";
-} else {
-document.getElementById("myBtn").style.display = "none";
-}
-}
-
-function topFunction() {
-document.body.scrollTop = 0;
-document.documentElement.scrollTop = 0;
-}
+    window.onscroll = function() {scrollFunction()};
+    function scrollFunction() {
+        if (document.body.scrollTop > 200 || document.documentElement.scrollTop > 200) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
 </script>
 </body>
 
